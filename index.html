@@ -11,18 +11,27 @@
 		.container {
 			margin: auto;
 			width: 500px;
-			display: flex;
-			flex-direction: center;
-			align-items: center;
+			height: 200px;
+			padding: 10px;
+			position: relative;
 			color: pink;
 			background-color: white;
 			border-radius: 23px;
 			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 }
 
-		img {
-			height: 150px;
+		.info {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.info img {
 			width: 150px;
+			height: 150px;
 			margin-right: 20px;
 		}
 
@@ -30,8 +39,9 @@
 </head>
 <body>
 	<div class="container">
-		<img src="Food.svg" />
+		<div class="info"><img src="Food.svg" />
 		<p>Chicken is very bad for your health plus it kills animals like cows. bad for your health plus it kills animalbad for your health plus it kills animal</p>
+		</div>
 	</div>
 </body>
 </html>
